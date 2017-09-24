@@ -1,4 +1,5 @@
 --recursive
 --reporter dot
 --ui bdd
+--require ignore-styles
 --compilers js:babel-core/register
