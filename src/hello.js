@@ -1,8 +1,8 @@
-import { p } from './html-factory.js'
+import $ from 'zeact'
 
 import './hello.scss'
 
-const paragraph = p(
+const paragraph = $.p(
   { class: 'hello' },
   'hello world'
 )
